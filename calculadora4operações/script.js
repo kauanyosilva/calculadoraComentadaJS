@@ -4,17 +4,17 @@ function somar(a, b) {
 }
 
 // Função para subtrair dois números
-function subtracao(a, b) {
+function subtrair(a, b) {
   return a - b;
 }
 
 // Função para multiplicar dois números
-function multiplicacao(a, b) {
+function multiplicar(a, b) {
   return a * b;
 }
 
 // Função para dividir dois números
-function divisao(a, b) {
+function dividir(a, b) {
   return a / b;
 }
 
@@ -27,6 +27,6 @@ function calcular() {
   // Exibir os resultados na página HTML
   document.getElementById("soma").innerHTML = "Soma: " + somar(numeroA, numeroB);
   document.getElementById("subtracao").innerHTML = "Subtração: " + subtrair(numeroA, numeroB);
-  document.getElementById("multiplicacao").innerHTML = "Multiplicação: " + multiplicar(numeroA, numeroB);
+  document.getElementById("multiplica").innerHTML = "Multiplicação: " + multiplicar(numeroA, numeroB);
   document.getElementById("divisao").innerHTML = "Divisão: " + dividir(numeroA, numeroB);
 }
